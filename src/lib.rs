@@ -36,15 +36,15 @@ mod external_doc_tests {
     // https://github.com/rust-lang/rust/issues/85882
     macro_rules! hide {
         () => {
-            #[doc = include_str!("../docs/extensions/filters/filters.md")]
-            #[doc = include_str!("../docs/extensions/filters/writing_custom_filters.md")]
-            #[doc = include_str!("../docs/extensions/filters/load_balancer.md")]
-            #[doc = include_str!("../docs/extensions/filters/local_rate_limit.md")]
-            #[doc = include_str!("../docs/extensions/filters/debug.md")]
-            #[doc = include_str!("../docs/extensions/filters/concatenate_bytes.md")]
-            #[doc = include_str!("../docs/extensions/filters/capture_bytes.md")]
-            #[doc = include_str!("../docs/extensions/filters/token_router.md")]
-            #[doc = include_str!("../docs/extensions/filters/compress.md")]
+            #[doc = include_str!("../docs/src/extensions/filters/filters.md")]
+            #[doc = include_str!("../docs/src/extensions/filters/writing_custom_filters.md")]
+            #[doc = include_str!("../docs/src/extensions/filters/load_balancer.md")]
+            #[doc = include_str!("../docs/src/extensions/filters/local_rate_limit.md")]
+            #[doc = include_str!("../docs/src/extensions/filters/debug.md")]
+            #[doc = include_str!("../docs/src/extensions/filters/concatenate_bytes.md")]
+            #[doc = include_str!("../docs/src/extensions/filters/capture_bytes.md")]
+            #[doc = include_str!("../docs/src/extensions/filters/token_router.md")]
+            #[doc = include_str!("../docs/src/extensions/filters/compress.md")]
             mod tests {}
         };
     }
