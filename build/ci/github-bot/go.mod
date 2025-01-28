@@ -18,7 +18,7 @@ go 1.16
 
 require (
 	github.com/GoogleCloudPlatform/cloud-build-notifiers/lib/notifiers v0.0.0-20210219212036-163c92a64b27
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+	github.com/golang/glog v1.2.4
 	github.com/google/go-github/v35 v35.2.0
 	golang.org/x/oauth2 v0.0.0-20210201163806-010130855d6c
 	golang.org/x/tools v0.1.1 // indirect
